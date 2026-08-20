@@ -67,7 +67,7 @@ if ($c['level'] == "superadmin") {
                                 <label>API Endpoint</label>
                                 <input type="text" class="form-control" name="endpoint"
                                        value="<?php echo htmlspecialchars($api['endpoint'], ENT_QUOTES) ?>"
-                                       placeholder="https://api.nexusggr.com" required>
+                                       placeholder="api endpoint" required>
                                 <small class="form-text text-muted">Alamat API tanpa garis miring di akhir.</small>
                             </div>
 
@@ -75,7 +75,7 @@ if ($c['level'] == "superadmin") {
                                 <label>Agent Code</label>
                                 <input type="text" class="form-control" name="agent_code"
                                        value="<?php echo htmlspecialchars($api['agent_code'], ENT_QUOTES) ?>"
-                                       placeholder="nexus_IDR_demo" required>
+                                       placeholder="agent code" required>
                             </div>
 
                             <div class="form-group">
