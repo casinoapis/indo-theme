@@ -56,7 +56,7 @@
 
                       <a href="?page=livegame">
                           <div class="category-item">
-                              <img src="https://images.linkcdn.cloud/global/nav-addons/hot_category.png" width="30" height="12" style="position: absolute; z-index:9; animation: 0.25s ease 0s infinite alternate none running beat;">
+                              <img src="../assets/img/cdn/nav-addons/hot_category.png" width="30" height="12" style="position: absolute; z-index:9; animation: 0.25s ease 0s infinite alternate none running beat;">
                               <div class="icon">
                                   <img src="themes/default/img/mobile-home-icon/mobile-livegames.svg" width="30" height="30" alt="livegames">
                               </div>
@@ -146,7 +146,7 @@
                         $getUser = mysqli_query($koneksi, "SELECT * FROM tb_user WHERE username = '$user'");
                         $infouser = mysqli_fetch_array($getUser);
                         $extplayer = $infouser['extplayer'];
-                        $query = mysqli_query($koneksi, "SELECT * FROM game_baru WHERE provider = '$id_provider' LIMIT 9");
+                        $query = mysqli_query($koneksi, "SELECT * FROM game_baru WHERE game_provider = '$id_provider' LIMIT 9");
                         while ($row = mysqli_fetch_array($query)) {
                             if (isset($_SESSION['username'])) {
                                 $link_url = $urlweb . "/main/API/playGame.php?id=" . $row['id'] . "&p=" . $extplayer . "&ln=en&ct=" . $row['category'];
@@ -154,10 +154,10 @@
                               <div class="games-holder">
                                   <div class="games-img">
                                       <a class="main sekarang main-sekarang-alert" target="_blank" href="<?php echo $link_url ?>">
-                                          <img src="<?php echo $row['image'] ?>" width="110" height="80" alt="S-RH02" loading="lazy">
+                                          <img src="<?php echo $row['game_image'] ?>" width="110" height="80" alt="S-RH02" loading="lazy">
                                       </a>
                                   </div>
-                                  <div class="games-name"><?php echo $row['gamename']; ?></div>
+                                  <div class="games-name"><?php echo $row['game_name']; ?></div>
                               </div>
 
                           <?php
@@ -165,10 +165,10 @@
                               <div class="games-holder">
                                   <div class="games-img">
                                       <a class="main sekarang main-sekarang-alert" href="#" onclick=''>
-                                          <img src="<?php echo $row['image'] ?>" width="110" height="80" alt="S-RH02" loading="lazy">
+                                          <img src="<?php echo $row['game_image'] ?>" width="110" height="80" alt="S-RH02" loading="lazy">
                                       </a>
                                   </div>
-                                  <div class="games-name"><?php echo $row['gamename']; ?></div>
+                                  <div class="games-name"><?php echo $row['game_name']; ?></div>
                               </div>
 
                       <?php }

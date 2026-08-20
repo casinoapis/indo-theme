@@ -87,7 +87,7 @@
        <div class="slider-cstmr__holder cstmr-service">
         <div class="slider-cstmr-title">Layanan Customer</div>
         <div class="cstmr-item">
-         <img src="https://images.linkcdn.cloud/global/default/contact/whatsapp.png" alt="whatsapp" width="31" height="31">
+         <img src="../assets/img/cdn/default/contact/whatsapp.png" alt="whatsapp" width="31" height="31">
          <a href="https://wa.me/<?php echo $whatsapp ?>" target="_blank" rel="noreferrer">
            <div class="cstmr-content">
             +<?php echo $whatsapp ?>
@@ -105,7 +105,7 @@
     <div class="slider-cstmr-title">Layanan Product</div>
     <div class="service-item">
      <div class="service-icon">
-      <img src="https://images.linkcdn.cloud/global/default/contact/vider.png">
+      <img src="../assets/img/cdn/default/contact/vider.png">
     </div>
     <div class="service-item-desc">Permainan Terlengkap dalam seluruh platform</div>
   </div>
@@ -116,7 +116,7 @@
   <div class="slider-cstmr-title">Lisensi Game</div>
   <div class="service-item">
    <div class="service-icon">
-    <img src="https://images.linkcdn.cloud/global/default/contact/vider2.png">
+    <img src="../assets/img/cdn/default/contact/vider2.png">
   </div>
   <div class="service-item-desc">lisensi Resmi &amp; Aman oleh PAGCOR
   </div>
@@ -167,9 +167,9 @@
     <div class="swiper-pagination"></div>
     <!-- Add Arrows -->
     <div class="swiper-button-prev"
-    style="background-image: url(https://images.linkcdn.cloud/global/default/icon/arrow-left.png);"></div>
+    style="background-image: url(../assets/img/cdn/default/icon/arrow-left.png);"></div>
     <div class="swiper-button-next"
-    style="background-image: url(https://images.linkcdn.cloud/global/default/icon/arrow-right.png);">
+    style="background-image: url(../assets/img/cdn/default/icon/arrow-right.png);">
   </div>
 </div>
 </div>
@@ -183,13 +183,13 @@
      <div class="slide-prov-favorit swiper-container">
       <div class="swiper-wrapper">
        <a class="swiper-slide" href="javascript:;" onclick="gameAlert()">
-        <img src="https://images.linkcdn.cloud/global/default/provider-favorit/pra.jpg">
+        <img src="../assets/img/cdn/default/provider-favorit/pra.jpg">
       </a>
       <a class="swiper-slide" href="javascript:;" onclick="gameAlert()">
-        <img src="https://images.linkcdn.cloud/global/default/provider-favorit/hbn.jpg">
+        <img src="../assets/img/cdn/default/provider-favorit/hbn.jpg">
       </a>
       <a class="swiper-slide" href="javascript:;" onclick="gameAlert()">
-        <img src="https://images.linkcdn.cloud/global/default/provider-favorit/afb.jpg">
+        <img src="../assets/img/cdn/default/provider-favorit/afb.jpg">
       </a>
     </div>
     <?php
@@ -198,13 +198,13 @@
     <div class="slide-prov-favorit swiper-container">
       <div class="swiper-wrapper">
         <a class="swiper-slide" href="?page=slot_pragmatic">
-          <img src="https://images.linkcdn.cloud/global/default/provider-favorit/pra.jpg">
+          <img src="../assets/img/cdn/default/provider-favorit/pra.jpg">
         </a>
         <a class="swiper-slide" href="javascript:;" onclick="gamemaintenance()">
-          <img src="https://images.linkcdn.cloud/global/default/provider-favorit/hbn.jpg">
+          <img src="../assets/img/cdn/default/provider-favorit/hbn.jpg">
         </a>
         <a class="swiper-slide" href="javascript:;" onclick="gamemaintenance()">
-          <img src="https://images.linkcdn.cloud/global/default/provider-favorit/afb.jpg">
+          <img src="../assets/img/cdn/default/provider-favorit/afb.jpg">
         </a>
       </div>
       <?php
@@ -215,9 +215,9 @@
     <div class="swiper-pagination"></div>
     <!-- Add Arrows -->
     <div class="swiper-button-prev"
-    style="background-image: url(https://images.linkcdn.cloud/global/default/icon/arrow-left.png);"></div>
+    style="background-image: url(../assets/img/cdn/default/icon/arrow-left.png);"></div>
     <div class="swiper-button-next"
-    style="background-image: url(https://images.linkcdn.cloud/global/default/icon/arrow-right.png);">
+    style="background-image: url(../assets/img/cdn/default/icon/arrow-right.png);">
   </div>
 </div>
 </div>
@@ -235,7 +235,7 @@
         <div class="payment-border">
           <div class="payment-content">
             <div class="payment-header">
-              <img src="https://images.linkcdn.cloud/global/default/icon/servicemeter.svg" width="50" height="50">
+              <img src="../assets/img/cdn/default/icon/servicemeter.svg" width="50" height="50">
               <div class="payment-title">Layanan Member</div>
             </div>
             <div class="payment-service">
@@ -272,7 +272,7 @@
         <div class="payment-border">
           <div class="payment-content">
             <div class="payment-header">
-              <img src="https://images.linkcdn.cloud/global/default/icon/payment.svg" width="50" height="50">
+              <img src="../assets/img/cdn/default/icon/payment.svg" width="50" height="50">
               <div class="payment-title">Sistem Pembayaran</div>
             </div>
 

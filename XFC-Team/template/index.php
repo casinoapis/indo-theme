@@ -339,6 +339,10 @@ if ($_SESSION['level'] == "user") {
 
                                                         <li class="sidebar-item"><a href="?page=contact" class="sidebar-link"><i class="mdi mdi-octagram"></i><span class="hide-menu">Live Chat & Whatsapp</span></a></li>
 
+                                                        <li class="sidebar-item"><a href="?page=provider" class="sidebar-link"><i class="mdi mdi-octagram"></i><span class="hide-menu">Provider &amp; Game</span></a></li>
+
+                                                        <li class="sidebar-item"><a href="?page=api" class="sidebar-link"><i class="mdi mdi-octagram"></i><span class="hide-menu">Setting API</span></a></li>
+
                                                          <li class="sidebar-item"><a href="?page=warna" class="sidebar-link"><i class="mdi mdi-octagram"></i><span class="hide-menu">Warna Website</span></a></li>
                                                     </ul>
                                                 </li>
@@ -402,6 +406,24 @@ if ($_SESSION['level'] == "user") {
                                       include 'page/dashboard/dashboard.php';
                                   }else if ($_GET['page'] == "bank") {
                                       include 'page/bank/bank.php';
+                                  }
+
+                //Setting API
+                                  else if ($_GET['page'] == "api") {
+                                      include 'page/api/api.php';
+                                  }else if ($_GET['page'] == "update_api") {
+                                      include 'page/api/update_api.php';
+                                  }else if ($_GET['page'] == "test_api") {
+                                      include 'page/api/test_api.php';
+                                  }
+
+                //Provider & Game dari API
+                                  else if ($_GET['page'] == "provider") {
+                                      include 'page/provider/provider.php';
+                                  }else if ($_GET['page'] == "sync_provider") {
+                                      include 'page/provider/sync_provider.php';
+                                  }else if ($_GET['page'] == "sync_game") {
+                                      include 'page/provider/sync_game.php';
                                   }
 
                 //Banner

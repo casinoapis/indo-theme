@@ -2,6 +2,7 @@
 
 
 ob_start();
+session_start();
 include "../../function/connect.php";
 include "config.php";
 include "functions.php";
@@ -11,7 +12,7 @@ $gameCode = $_GET['gameCode'];
 $provider = $_GET['provider'];
 
 error_reporting(E_ALL);
-ini_set('display_errors', 1);
+ini_set('display_errors', 0);   // jangan tampilkan error di halaman game
 
 $cekUser = $TS->getBalance($userCode);
 $datas = json_decode($cekUser, true);
@@ -33,8 +34,9 @@ if ($datas === null) {
         $orderid = $kode_unik . date('dis');
         $created_date = date('Y-m-d H:i:s');
 
-        $response = $TS->launchGame($userCode, $provider, $gameCode, '0');
+        $response = $TS->launchGame($userCode, $provider, $gameCode, $blccc);
         $validation = json_decode($response, true);
+
 
         if(isset($validation['status']) && $validation['status'] === 1 && isset($validation['launch_url'])) {
             $url = $validation['launch_url'];
@@ -57,15 +59,15 @@ if ($datas === null) {
 
                     $getBalanceUser = mysqli_query($koneksi, "UPDATE tb_saldo SET active='0' WHERE id_user='$userCode'");
                     
-                    header('Location: ' . $url);
-                    exit(); // Pastikan tidak ada eksekusi kode lebih lanjut setelah redirect
+                    include 'gameFrame.php';
+                    exit(); // Pastikan tidak ada eksekusi kode lebih lanjut
                 // } else {
                 //     // Jika gagal transfer saldo, kembalikan ke index.php
                 //     header('Location:../../index.php?page=slot');
                 // }
             } else {
-                header('Location: ' . $url);
-                exit(); // Pastikan tidak ada eksekusi kode lebih lanjut setelah redirect
+                include 'gameFrame.php';
+                exit(); // Pastikan tidak ada eksekusi kode lebih lanjut
             }
         } else {
             $updateBalance = mysqli_query($koneksi, "UPDATE `tb_saldo` SET active = $blccc WHERE id_user = '$userCode'") or die(mysqli_error($koneksi));

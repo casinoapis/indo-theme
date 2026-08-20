@@ -15,6 +15,9 @@ $response1 = json_decode($result1, true);
 
 $balance = $response1['user']['balance'];
 
+// echo(var_dump($response1));
+// exit;
+
 if ($balance != 0) {
     $updateBalance = mysqli_query($koneksi, "UPDATE `tb_saldo` SET active = $balance WHERE id_user = '$usersID'") or die(mysqli_error($koneksi));
     

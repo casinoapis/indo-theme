@@ -15,9 +15,3 @@ $hallInfo = array(
     'hallId' => '3203098',
     'hallKey' => 'masterpm88',
 );
-
-$apiFiver = array(
-    'url' => '',
-    'agent_token' => '',
-    'agent_code' => ''
-);

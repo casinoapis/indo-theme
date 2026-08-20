@@ -11,7 +11,7 @@
                         <div class="game-holder">
                             <div class="game-img">
                                 <img title="WS168" alt="WS168"
-                                src="https://images.linkcdn.cloud/global/banner/ws1.jpg">
+                                src="../assets/img/cdn/banner/ws1.jpg">
                             </div>
                             <div class="game-bottom">
                                 <div class="game-name">WS168</div>
@@ -24,7 +24,7 @@
                         <div class="game-holder">
                             <div class="game-img">
                                 <img title="MIKI Gaming" alt="MIKI Gaming"
-                                src="https://images.linkcdn.cloud/global/banner/banner_miki.jpg">
+                                src="../assets/img/cdn/banner/banner_miki.jpg">
                             </div>
                             <div class="game-bottom">
                                 <div class="game-name">MIKI Gaming</div>
@@ -37,7 +37,7 @@
                         <div class="game-holder">
                             <div class="game-img">
                                 <img title="SV388 Cockfight" alt="SV388 Cockfight"
-                                src="https://images.linkcdn.cloud/global/banner/sv388.jpg">
+                                src="../assets/img/cdn/banner/sv388.jpg">
                             </div>
                             <div class="game-bottom">
                                 <div class="game-name">SV388 Cockfight</div>
@@ -53,7 +53,7 @@
                         <div class="game-holder">
                             <div class="game-img">
                                 <img title="WS168" alt="WS168"
-                                src="https://images.linkcdn.cloud/global/banner/ws1.jpg">
+                                src="../assets/img/cdn/banner/ws1.jpg">
                             </div>
                             <div class="game-bottom">
                                 <div class="game-name">WS168</div>
@@ -66,7 +66,7 @@
                         <div class="game-holder">
                             <div class="game-img">
                                 <img title="MIKI Gaming" alt="MIKI Gaming"
-                                src="https://images.linkcdn.cloud/global/banner/banner_miki.jpg">
+                                src="../assets/img/cdn/banner/banner_miki.jpg">
                             </div>
                             <div class="game-bottom">
                                 <div class="game-name">MIKI Gaming</div>
@@ -79,7 +79,7 @@
                         <div class="game-holder">
                             <div class="game-img">
                                 <img title="SV388 Cockfight" alt="SV388 Cockfight"
-                                src="https://images.linkcdn.cloud/global/banner/sv388.jpg">
+                                src="../assets/img/cdn/banner/sv388.jpg">
                             </div>
                             <div class="game-bottom">
                                 <div class="game-name">SV388 Cockfight</div>

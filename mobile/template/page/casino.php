@@ -12,7 +12,7 @@
                     <div class="game-holder">
                         <div class="game-img">
                             <img title="Pragmatic Play LC" alt="Pragmatic Play LC"
-                            src="https://images.linkcdn.cloud/global/banner/pragmaticplay-casino.jpg" style="height: 209px !important">
+                            src="../assets/img/cdn/banner/pragmaticplay-casino.jpg" style="height: 209px !important">
                         </div>
                         <div class="game-bottom">
                             <div class="game-name">Pragmatic Play LC</div>
@@ -53,7 +53,7 @@
                     <div class="game-holder">
                         <div class="game-img">
                             <img title="AFB CASINO" alt="AFB CASINO"
-                            src="https://images.linkcdn.cloud/global/banner/afb_casino.webp" style="height: 209px !important">
+                            src="../assets/img/cdn/banner/afb_casino.webp" style="height: 209px !important">
                         </div>
                         <div class="game-bottom">
                             <div class="game-name">AFB CASINO</div>
@@ -67,7 +67,7 @@
                     <div class="game-holder">
                         <div class="game-img">
                             <img title="GD88" alt="GD88"
-                            src="https://images.linkcdn.cloud/global/banner/gd88.jpg" style="height: 209px !important">
+                            src="../assets/img/cdn/banner/gd88.jpg" style="height: 209px !important">
                         </div>
                         <div class="game-bottom">
                             <div class="game-name">GD88</div>
@@ -80,7 +80,7 @@
                     <div class="game-holder">
                         <div class="game-img">
                             <img title="WM Casino" alt="WM Casino"
-                            src="https://images.linkcdn.cloud/global/banner/wmcasino.jpg" style="height: 209px !important">
+                            src="../assets/img/cdn/banner/wmcasino.jpg" style="height: 209px !important">
                         </div>
                         <div class="game-bottom">
                             <div class="game-name">WM Casino</div>
@@ -93,7 +93,7 @@
                     <div class="game-holder">
                         <div class="game-img">
                             <img title="OG Casino" alt="OG Casino"
-                            src="https://images.linkcdn.cloud/global/banner/og.jpg" style="height: 209px !important">
+                            src="../assets/img/cdn/banner/og.jpg" style="height: 209px !important">
                         </div>
                         <div class="game-bottom">
                             <div class="game-name">OG Casino</div>
@@ -106,7 +106,7 @@
                     <div class="game-holder">
                         <div class="game-img">
                             <img title="Evolution" alt="Evolution"
-                            src="https://images.linkcdn.cloud/global/banner/evolution.jpg" style="height: 209px !important">
+                            src="../assets/img/cdn/banner/evolution.jpg" style="height: 209px !important">
                         </div>
                         <div class="game-bottom">
                             <div class="game-name">Evolution</div>
@@ -119,7 +119,7 @@
                     <div class="game-holder">
                         <div class="game-img">
                             <img title="ALLBET" alt="ALLBET"
-                            src="https://images.linkcdn.cloud/global/banner/allbet.jpg" style="height: 209px !important">
+                            src="../assets/img/cdn/banner/allbet.jpg" style="height: 209px !important">
                         </div>
                         <div class="game-bottom">
                             <div class="game-name">ALLBET</div>
@@ -132,7 +132,7 @@
                     <div class="game-holder">
                         <div class="game-img">
                             <img title="Dream Gaming" alt="Dream Gaming"
-                            src="https://images.linkcdn.cloud/global/banner/dg.jpg" style="height: 209px !important">
+                            src="../assets/img/cdn/banner/dg.jpg" style="height: 209px !important">
                         </div>
                         <div class="game-bottom">
                             <div class="game-name">Dream Gaming</div>
@@ -145,7 +145,7 @@
                     <div class="game-holder">
                         <div class="game-img">
                             <img title="Asia Gaming" alt="Asia Gaming"
-                            src="https://images.linkcdn.cloud/global/banner/ag.jpg" style="height: 209px !important">
+                            src="../assets/img/cdn/banner/ag.jpg" style="height: 209px !important">
                         </div>
                         <div class="game-bottom">
                             <div class="game-name">Asia Gaming</div>
@@ -158,7 +158,7 @@
                     <div class="game-holder">
                         <div class="game-img">
                             <img title="Sexy Gaming" alt="Sexy Gaming"
-                            src="https://images.linkcdn.cloud/global/banner/sexy.jpg" style="height: 209px !important">
+                            src="../assets/img/cdn/banner/sexy.jpg" style="height: 209px !important">
                         </div>
                         <div class="game-bottom">
                             <div class="game-name">Sexy Gaming</div>
@@ -171,7 +171,7 @@
                     <div class="game-holder">
                         <div class="game-img">
                             <img title="WE CASINO" alt="WE CASINO"
-                            src="https://images.linkcdn.cloud/global/banner/wec.jpg" style="height: 209px !important">
+                            src="../assets/img/cdn/banner/wec.jpg" style="height: 209px !important">
                         </div>
                         <div class="game-bottom">
                             <div class="game-name">WE CASINO</div>
@@ -186,7 +186,7 @@
                     <div class="game-holder">
                         <div class="game-img">
                             <img title="LG88" alt="LG88"
-                            src="https://images.linkcdn.cloud/global/banner/lg88casino.jpg" style="height: 209px !important">
+                            src="../assets/img/cdn/banner/lg88casino.jpg" style="height: 209px !important">
                         </div>
                         <div class="game-bottom">
                             <div class="game-name">LG88</div>
@@ -199,7 +199,7 @@
                     <div class="game-holder">
                         <div class="game-img">
                             <img title="N2Live" alt="N2Live"
-                            src="https://images.linkcdn.cloud/global/banner/n2live.jpg" style="height: 209px !important">
+                            src="../assets/img/cdn/banner/n2live.jpg" style="height: 209px !important">
                         </div>
                         <div class="game-bottom">
                             <div class="game-name">N2Live</div>
@@ -215,7 +215,7 @@
                 <div class="game-holder">
                     <div class="game-img">
                         <img title="Pragmatic Play LC" alt="Pragmatic Play LC"
-                        src="https://images.linkcdn.cloud/global/banner/pragmaticplay-casino.jpg" style="height: 209px !important">
+                        src="../assets/img/cdn/banner/pragmaticplay-casino.jpg" style="height: 209px !important">
                     </div>
                     <div class="game-bottom">
                         <div class="game-name">Pragmatic Play LC</div>
@@ -256,7 +256,7 @@
                 <div class="game-holder">
                     <div class="game-img">
                         <img title="AFB CASINO" alt="AFB CASINO"
-                        src="https://images.linkcdn.cloud/global/banner/afb_casino.webp" style="height: 209px !important">
+                        src="../assets/img/cdn/banner/afb_casino.webp" style="height: 209px !important">
                     </div>
                     <div class="game-bottom">
                         <div class="game-name">AFB CASINO</div>
@@ -270,7 +270,7 @@
                 <div class="game-holder">
                     <div class="game-img">
                         <img title="GD88" alt="GD88"
-                        src="https://images.linkcdn.cloud/global/banner/gd88.jpg" style="height: 209px !important">
+                        src="../assets/img/cdn/banner/gd88.jpg" style="height: 209px !important">
                     </div>
                     <div class="game-bottom">
                         <div class="game-name">GD88</div>
@@ -283,7 +283,7 @@
                 <div class="game-holder">
                     <div class="game-img">
                         <img title="WM Casino" alt="WM Casino"
-                        src="https://images.linkcdn.cloud/global/banner/wmcasino.jpg" style="height: 209px !important">
+                        src="../assets/img/cdn/banner/wmcasino.jpg" style="height: 209px !important">
                     </div>
                     <div class="game-bottom">
                         <div class="game-name">WM Casino</div>
@@ -296,7 +296,7 @@
                 <div class="game-holder">
                     <div class="game-img">
                         <img title="OG Casino" alt="OG Casino"
-                        src="https://images.linkcdn.cloud/global/banner/og.jpg" style="height: 209px !important">
+                        src="../assets/img/cdn/banner/og.jpg" style="height: 209px !important">
                     </div>
                     <div class="game-bottom">
                         <div class="game-name">OG Casino</div>
@@ -309,7 +309,7 @@
                 <div class="game-holder">
                     <div class="game-img">
                         <img title="Evolution" alt="Evolution"
-                        src="https://images.linkcdn.cloud/global/banner/evolution.jpg" style="height: 209px !important">
+                        src="../assets/img/cdn/banner/evolution.jpg" style="height: 209px !important">
                     </div>
                     <div class="game-bottom">
                         <div class="game-name">Evolution</div>
@@ -322,7 +322,7 @@
                 <div class="game-holder">
                     <div class="game-img">
                         <img title="ALLBET" alt="ALLBET"
-                        src="https://images.linkcdn.cloud/global/banner/allbet.jpg" style="height: 209px !important">
+                        src="../assets/img/cdn/banner/allbet.jpg" style="height: 209px !important">
                     </div>
                     <div class="game-bottom">
                         <div class="game-name">ALLBET</div>
@@ -335,7 +335,7 @@
                 <div class="game-holder">
                     <div class="game-img">
                         <img title="Dream Gaming" alt="Dream Gaming"
-                        src="https://images.linkcdn.cloud/global/banner/dg.jpg" style="height: 209px !important">
+                        src="../assets/img/cdn/banner/dg.jpg" style="height: 209px !important">
                     </div>
                     <div class="game-bottom">
                         <div class="game-name">Dream Gaming</div>
@@ -348,7 +348,7 @@
                 <div class="game-holder">
                     <div class="game-img">
                         <img title="Asia Gaming" alt="Asia Gaming"
-                        src="https://images.linkcdn.cloud/global/banner/ag.jpg" style="height: 209px !important">
+                        src="../assets/img/cdn/banner/ag.jpg" style="height: 209px !important">
                     </div>
                     <div class="game-bottom">
                         <div class="game-name">Asia Gaming</div>
@@ -361,7 +361,7 @@
                 <div class="game-holder">
                     <div class="game-img">
                         <img title="Sexy Gaming" alt="Sexy Gaming"
-                        src="https://images.linkcdn.cloud/global/banner/sexy.jpg" style="height: 209px !important">
+                        src="../assets/img/cdn/banner/sexy.jpg" style="height: 209px !important">
                     </div>
                     <div class="game-bottom">
                         <div class="game-name">Sexy Gaming</div>
@@ -374,7 +374,7 @@
                 <div class="game-holder">
                     <div class="game-img">
                         <img title="WE CASINO" alt="WE CASINO"
-                        src="https://images.linkcdn.cloud/global/banner/wec.jpg" style="height: 209px !important">
+                        src="../assets/img/cdn/banner/wec.jpg" style="height: 209px !important">
                     </div>
                     <div class="game-bottom">
                         <div class="game-name">WE CASINO</div>
@@ -389,7 +389,7 @@
                 <div class="game-holder">
                     <div class="game-img">
                         <img title="LG88" alt="LG88"
-                        src="https://images.linkcdn.cloud/global/banner/lg88casino.jpg" style="height: 209px !important">
+                        src="../assets/img/cdn/banner/lg88casino.jpg" style="height: 209px !important">
                     </div>
                     <div class="game-bottom">
                         <div class="game-name">LG88</div>
@@ -402,7 +402,7 @@
                 <div class="game-holder">
                     <div class="game-img">
                         <img title="N2Live" alt="N2Live"
-                        src="https://images.linkcdn.cloud/global/banner/n2live.jpg" style="height: 209px !important">
+                        src="../assets/img/cdn/banner/n2live.jpg" style="height: 209px !important">
                     </div>
                     <div class="game-bottom">
                         <div class="game-name">N2Live</div>

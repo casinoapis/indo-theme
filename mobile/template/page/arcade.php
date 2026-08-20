@@ -1,3 +1,4 @@
+<?php require_once dirname(__DIR__, 3) . '/function/provider_helper.php'; ?>
 <!-- Account Balance -->
 <main id="main-route">
     <div class="main-content game">
@@ -6,45 +7,7 @@
             <div class="game__list">
                 <div class="page-header">Arcade</div>
                 <div class="game-list-container">
-                    <?php 
-                    if ($id_login == "") {
-                        ?>
-                        <div class="game-holder">
-                            <div class="game-img">
-                                <img title="Spaceman" alt="Spaceman"
-                                src="https://cdn1.epicgames.com/spt-assets/2a3d43b0d0014224a6aec2a36371f276/arcade-fishing-1gu0l.png">
-                            </div>
-                            <div class="game-bottom">
-                                <div class="game-name">Arcade Fishing</div>
-                                <div class="game-links main-sekarang-alert">
-                                    <a class="btn-custom" href="?page=arcade_fishing" >
-                                    Main Sekarang</a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <?php 
-                    }else{
-                        ?>
-                        <div class="game-holder">
-                            <div class="game-img">
-                                <img title="Spaceman" alt="Spaceman"
-                                src="https://cdn1.epicgames.com/spt-assets/2a3d43b0d0014224a6aec2a36371f276/arcade-fishing-1gu0l.png">
-                            </div>
-                            <div class="game-bottom">
-                                <div class="game-name">Arcade Fishing</div>
-                                <div class="game-links main-sekarang-alert">
-                                    <a class="btn-custom" href="?page=arcade_fishing" >
-                                    Main Sekarang</a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        
-                        <?php
-                    }
-                    ?>
-
+                    <?php nx_render_providers_mobile($koneksi, array('FH', 'MN')); ?>
                 </div>
             </div>
 

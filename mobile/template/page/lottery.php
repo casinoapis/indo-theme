@@ -11,7 +11,7 @@
                         <div class="game-holder">
                             <div class="game-img">
                                 <img title="4D" alt="4D"
-                                src="https://images.linkcdn.cloud/global/banner/togel.jpg">
+                                src="../assets/img/cdn/banner/togel.jpg">
                             </div>
                             <div class="game-bottom">
                                 <div class="game-name">4D</div>
@@ -27,7 +27,7 @@
                         <div class="game-holder">
                             <div class="game-img">
                                 <img title="4D" alt="4D"
-                                src="https://images.linkcdn.cloud/global/banner/togel.jpg">
+                                src="../assets/img/cdn/banner/togel.jpg">
                             </div>
                             <div class="game-bottom">
                                 <div class="game-name">4D</div>

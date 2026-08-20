@@ -1441,7 +1441,7 @@
 
 @font-face {
   font-family: advanced_dot_digital-7regular;
-  src: url(../../../custom/font/advanced_dot_digital-7-webfont.woff2) format("woff2"), url(../../../custom/font/advanced_dot_digital-7-webfont.woff) format("woff");
+  src: url(../font/advanced_dot_digital-7-webfont.woff2) format("woff2"), url(../font/advanced_dot_digital-7-webfont.woff) format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -3085,7 +3085,7 @@ img {
   }
 }
 .maintenance .maintenance__holder .maintenance-counter .countdown-holder {
-  background-image: url(https://images.linkcdn.cloud/global/error/timer1.png);
+  background-image: url(../../../../assets/img/cdn/error/timer1.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

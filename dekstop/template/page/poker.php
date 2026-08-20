@@ -12,7 +12,7 @@
                         <div class="game-holder">
                             <div class="game-img">
                                 <img title="Amatic" alt="Amatic"
-                                src="https://res.cloudinary.com/qih/image/upload/f_auto/v1/slotswise/media/SoftwareProviders/2019/03/28/1553787762AMATIC.png" style="height: 50px">
+                                src="../assets/img/cdn/provider/AMATIC.png" style="height: 50px">
                             </div>
                             <div class="game-bottom">
                                 <div class="game-name">Amatic</div>
@@ -28,7 +28,7 @@
                         <div class="game-holder">
                             <div class="game-img">
                                 <img title="Amatic" alt="Amatic"
-                                src="https://res.cloudinary.com/qih/image/upload/f_auto/v1/slotswise/media/SoftwareProviders/2019/03/28/1553787762AMATIC.png" style="height: 50px">
+                                src="../assets/img/cdn/provider/AMATIC.png" style="height: 50px">
                             </div>
                             <div class="game-bottom">
                                 <div class="game-name">Amatic</div>

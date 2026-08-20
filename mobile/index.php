@@ -70,7 +70,7 @@ if ($punya_user['status'] == "Suspend") {
   <meta name="msapplication-navbutton-color" content="linear-gradient(to bottom, #ebf4f9 0%, #c3c0cc 100%)">
   <meta name="apple-mobile-web-app-status-bar-style" content="linear-gradient(to bottom, #ebf4f9 0%, #c3c0cc 100%)">
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="https://images.linkcdn.cloud/V2/350/favicon/favicon-1815075327.png">
+  <link rel="icon" type="image/png" href="../assets/img/cdn/favicon/favicon-1815075327.png">
   <meta name="robots" content="noindex, nofollow">
   <meta name="googlebot" content="noindex, nofollow">
   <meta name="googlebot-news" content="noindex">
@@ -232,6 +232,8 @@ if ($punya_user['status'] == "Suspend") {
     include 'template/page/refferal.php';
   } else if ($_GET['page'] == "profile") {
     include 'template/page/profil.php';
+  } else if ($_GET['page'] == "games") {
+    include 'template/page/menu_game/provider.php';
   } else if ($_GET['page'] == "slot_pragmatic") {
     include 'template/page/menu_game/slot/pragmaticPlay.php';
   } else if ($_GET['page'] == "slot_evoplay") {
