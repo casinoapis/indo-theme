@@ -135,10 +135,11 @@ if (!function_exists('nx_render_providers')) {
     }
 }
 
-if (!function_exists('nx_render_providers_mobile')) {
+if (!function_exists('nx_render_provider_cards')) {
 
     /**
-     * Cetak daftar provider untuk tampilan mobile.
+     * Cetak daftar provider sebagai kartu (dipakai halaman kategori
+     * desktop maupun mobile).
      *
      * Bentuk HTML-nya mengikuti kartu yang sudah dipakai di
      * mobile/template/page/slot.php (game-holder / game-img / game-bottom).
@@ -147,7 +148,7 @@ if (!function_exists('nx_render_providers_mobile')) {
      * @param array  $types tipe provider yang mau ditampilkan
      * @param string $base  prefix path menuju root web ('../' dari /mobile/)
      */
-    function nx_render_providers_mobile($koneksi, $types, $base = '../')
+    function nx_render_provider_cards($koneksi, $types, $base = '../')
     {
         $daftar = nx_providers($koneksi, $types);
 

@@ -6,7 +6,7 @@
             <div class="game__list">
                 <div class="page-header">Live Game</div>
                 <div class="game-list-container">
-                    <?php nx_render_providers_mobile($koneksi, array('live')); ?>
+                    <?php nx_render_provider_cards($koneksi, array('live')); ?>
                 </div>
             </div>
         </div>

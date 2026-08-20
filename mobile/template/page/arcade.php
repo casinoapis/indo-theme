@@ -7,7 +7,7 @@
             <div class="game__list">
                 <div class="page-header">Arcade</div>
                 <div class="game-list-container">
-                    <?php nx_render_providers_mobile($koneksi, array('FH', 'MN')); ?>
+                    <?php nx_render_provider_cards($koneksi, array('FH', 'MN')); ?>
                 </div>
             </div>
 
